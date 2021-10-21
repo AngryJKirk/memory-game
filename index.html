@@ -15,7 +15,7 @@
 </div>
 
 <div class="button_wrapper">
-	<button class="memory-game_button">🔄</button>
+    <button class="memory-game_button">🔄</button>
 </div>
 </body>
 
@@ -47,7 +47,19 @@
     }
 
     function createBoard() {
-        const memoryArray = ['🚑', '🚑', '💀', '💀', '🎃', '🎃', '🐇', '🐇', '🐕', '🐕', '🥨', '🥨', '🏀', '🏀', '🤖', '🤖', '🦉', '🦉', '🐙', '🐙', '🌏', '🌏', '🍔', '🍔'];
+        const memoryArray = [
+            '🔪', '🔪',
+            'Steve', 'Steve',
+            '65k£', '65k£',
+            'CQRS', 'CQRS',
+            '📘ing', '📘ing',
+            '🍆🍆', '🍆🍆',
+            '🦀', '🦀',
+            'O(🤦‍♀️)', 'O(🤦‍♀️)',
+            '🟥', '🟥',
+            '❌👨‍💻', '❌👨‍💻',
+            '🐍', '🐍',
+            '🔄🌳', '🔄🌳'];
 
         const newArray = shuffle(memoryArray);
         const memoryBoard = document.querySelector('.memory_board');
